@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'lato';
+    background-color: black;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    font-size: 72px;
+    padding-top: 36vh;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, .45);
+}
+
+#bg {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+li, a, button {
+    position: relative;
+    font-family: 'lato';
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+
+
+
+p {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, .25);
+}
